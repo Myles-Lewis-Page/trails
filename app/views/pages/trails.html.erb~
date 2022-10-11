@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+   
+    <%= render "layouts/navbar" %>
+    <%= yield %>
+    
+   
+    <p>
+    
+    
+    	
+    	<ul>
+  		<% @trail.each do |t| %>
+    		<li>
+      			<%= t.title %>
+      			<ul>
+      				<%= t.location %>
+      				<%= t.weather %>
+      				<%= t.distance %>
+      				<%= t.difficulty %>
+      				<%= t.activity %>
+      				<%= t.description %>
+      			</ul>
+    		</li>
+  		<% end %>
+	</ul>
+    </p>
+    
+    
+    
+    
+
+
+
+</html>
+
+
+

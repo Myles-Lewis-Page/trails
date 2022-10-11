@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  location: MyText
+  weather: MyText
+  distance: 1.5
+  difficulty: MyString
+  activity: MyText
+  description: MyText
+
+two:
+  title: MyString
+  location: MyText
+  weather: MyText
+  distance: 1.5
+  difficulty: MyString
+  activity: MyText
+  description: MyText

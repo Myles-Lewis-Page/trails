@@ -1,0 +1,2 @@
+class TrailsDatabase < ApplicationRecord
+end
