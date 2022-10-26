@@ -1,2 +1,18 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<html>
+
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   	<%= render "layouts/navbar" %>
+    	<%= yield %>
+   	
+   	<div class="w3-panel w3-round w3-black"><h1> <%= image_tag('pic1.png',size: "200x200") %> Best trails in Colorado. </h1></div>
+   	
+   	<ul>
+   		<li>Ice Lake Basin </li>
+   		<li>Manitou Incline</li>
+   		<li>Ouray Perimeter Trail</li>
+   		<li>Sand canyon, Mesa, Greenlee, Red Rock Canyon Loop</li>
+   		<li>Garden of the Gods Outer Loop</li>
+   	</ul>
+		
+  
+</html>

@@ -1,2 +1,19 @@
-<h1>Pages#account</h1>
-<p>Find me in app/views/pages/account.html.erb</p>
+<!DOCTYPE html>
+
+<html>
+   
+    <%= render "layouts/navbar" %>
+    <%= yield %>
+    
+   
+    <p>
+    Account
+    </p>
+    
+    
+    
+    
+
+
+
+</html>

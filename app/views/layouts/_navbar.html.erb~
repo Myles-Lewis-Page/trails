@@ -1,14 +1,15 @@
 <header>
 	<div class="container">
 	
-	
+		<%= image_tag('banner.png',size: "2000x350") %>
 		<h1><Center>Welcome Explorer!</Center></h1>
 		<nav>
 			<ul>
 				<li><%= link_to "Home", home_path %></li>
-				<li><%= link_to "Trails", pages_trails_path %></li>
-				<li><%= link_to "Account", pages_account_path %></li>
+				<li><%= link_to "Trails", trails_path %></li>
+				<li><%= link_to "Account", account_path %></li>
 			</ul>
 		</nav>
+		
 	</div>
 </header>

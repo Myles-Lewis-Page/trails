@@ -2,37 +2,26 @@
 
 <html>
    
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <%= render "layouts/navbar" %>
     <%= yield %>
     
-   
-    <p>
-    
-    
-    	
-    	<ul>
-  		<% @trail.each do |t| %>
-    		<li>
-      			<%= t.title %>
-      			<ul>
-      				<%= t.location %>
-      				<%= t.weather %>
-      				<%= t.distance %>
-      				<%= t.difficulty %>
-      				<%= t.activity %>
-      				<%= t.description %>
-      			</ul>
-    		</li>
-  		<% end %>
-	</ul>
-    </p>
-    
-    
-    
-    
 
-
-
+    	<table style="width:100%">
+    		<tr>
+    			<th>Name</th>
+        		<th>Address</th>
+        		<th>difficulty</th>
+        		<th>Activity</th>      
+      	</tr>
+  			<% @trail.each do |t| %>
+      		<tr>
+      			<td> <%= t.title %> </td>
+      			<td> <%= t.location %> </td>
+      			<td>	<%= t.difficulty %> </td>
+      			<td> <%= t.activity %> </td>	
+      		</tr>
+  			<% end %>  
 </html>
 
 
