@@ -34,18 +34,9 @@ header::after{
 }
 
 
-table{
+table,tr,th,td{
     border:1px solid black;
     text-align: center;
 }
 
-th{
-	border:1px solid black;
-   text-align: center;
-}
-
-td{
-	border:1px solid black;
-    text-align: center;
-}
 

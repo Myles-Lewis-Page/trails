@@ -3,25 +3,54 @@
 <html>
    
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="application.css">
     <%= render "layouts/navbar" %>
     <%= yield %>
     
 
-    	<table style="width:100%">
+    	<table border: 1px solid;>
     		<tr>
     			<th>Name</th>
         		<th>Address</th>
         		<th>difficulty</th>
         		<th>Activity</th>      
       	</tr>
-  			<% @trail.each do |t| %>
-      		<tr>
-      			<td> <%= t.title %> </td>
-      			<td> <%= t.location %> </td>
-      			<td>	<%= t.difficulty %> </td>
-      			<td> <%= t.activity %> </td>	
-      		</tr>
-  			<% end %>  
+  			
+    		<tr>
+      		<td><%= link_to "Garden of the Gods Outer Loop", gardenofthegods_path %></td>
+      		<td>1805 N 30th St, Colorado Springs</td>
+      		<td>Easy</td>
+      		<td>Hiking</td>	
+      	</tr>
+			
+			<tr>
+      		<td><%= link_to "Sand canyon, Mesa, Greenlee, Red Rock Canyon Loop" ,sandcanyon_path %> </td>
+      		<td> red rock canyon trail </td>
+      		<td> moderate </td>
+      		<td> Hiking and horseback riding </td>	
+      	</tr>
+			
+			<tr>
+      		<td><%= link_to "Ouray Perimeter Trail" ,ouray_path %></td>
+      		<td> perimeter trail trailhead </td>
+      		<td> Easy </td>
+      		<td> Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td> Ice Lake Basin </td>
+      		<td> Ice Lake Basin </td>
+      		<td> Hard </td>
+      		<td> Backpacking and Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td> The Manitou Incline </td>
+      		<td> 444 Ruxton Ave, Manitou Springs,Colorado </td>
+      		<td> Hard </td>
+      		<td> Hiking </td>	
+      	</tr>
+  			 
 </html>
 
 

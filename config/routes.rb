@@ -6,4 +6,9 @@ Rails.application.routes.draw do
   get "/trails", to: "pages#trails"
   get "/account", to: "pages#account"
   
+  get "/gardenofthegods", to: "pages#garden"
+  get "/sandcanyon", to: "pages#sand"
+  get "/ouray", to: "pages#ouray"
+  get "/ice", to: "pages#ice"
+  
 end
