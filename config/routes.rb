@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get "/sandcanyon", to: "pages#sand"
   get "/ouray", to: "pages#ouray"
   get "/ice", to: "pages#ice"
+  get "/manitou", to: "pages#manitou"
   
 end

@@ -38,14 +38,14 @@
       	</tr>
       	
       	<tr>
-      		<td> Ice Lake Basin </td>
+      		<td><%= link_to "Ice Lake Basin" , ice_path %> </td>
       		<td> Ice Lake Basin </td>
       		<td> Hard </td>
       		<td> Backpacking and Hiking </td>	
       	</tr>
       	
       	<tr>
-      		<td> The Manitou Incline </td>
+      		<td><%= link_to "The Manitou Incline" , manitou_path %> </td>
       		<td> 444 Ruxton Ave, Manitou Springs,Colorado </td>
       		<td> Hard </td>
       		<td> Hiking </td>	

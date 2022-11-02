@@ -7,6 +7,8 @@
     <%= render "layouts/navbar" %>
     <%= yield %>
     
+    <div class="w3-panel w3-round w3-black"><h1> <%= image_tag('pic1.png',size: "200x200") %> Trails in Colorado. </h1></div>
+    
 
     	<table border: 1px solid;>
     		<tr>
@@ -45,7 +47,7 @@
       	</tr>
       	
       	<tr>
-      		<td> The Manitou Incline </td>
+      		<td><%= link_to "The Manitou Incline" , manitou_path %> </td>
       		<td> 444 Ruxton Ave, Manitou Springs,Colorado </td>
       		<td> Hard </td>
       		<td> Hiking </td>	
