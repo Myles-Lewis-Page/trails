@@ -8,7 +8,7 @@
     <%= yield %>
     
 
-   <div class="w3-panel w3-round w3-black"><h1> <%= image_tag('garden.png',size: "200x200") %> Garden of The Gods. </h1></div>
+   <div class="w3-panel w3-round w3-black"><h1> <%= image_tag('garden.png',size: "200x200") %> Garden of The Gods Outer Loop  </h1></div>
    
    <p>Length :2h 37 min avg </p>
    

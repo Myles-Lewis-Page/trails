@@ -14,6 +14,8 @@
    		<li>Garden of the Gods Outer Loop</li>
    	</ul>
    	
-
+   	open_weather_api.current city: 'Santa Cruz de Tenerife', mode: :xml do |xml_str|
+  puts "XML data: #{xml_str}"
+end
    	
 </html>
