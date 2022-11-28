@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-   
+   <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <link rel="stylesheet" href="application.css">
     <%= render "layouts/navbar" %>
@@ -10,7 +10,7 @@
     <div class="w3-panel w3-round w3-black"><h1> <%= image_tag('pic1.png',size: "200x200") %> Trails in Colorado. </h1></div>
     
 
-    	<table border: 1px solid;>
+    	<table class = "sortable" border: 1px solid;>
     		<tr>
     			<th>Name</th>
         		<th>Address</th>
