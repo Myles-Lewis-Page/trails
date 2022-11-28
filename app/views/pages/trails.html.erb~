@@ -7,6 +7,8 @@
     <%= render "layouts/navbar" %>
     <%= yield %>
     
+    <div class="w3-panel w3-round w3-black"><h1> <%= image_tag('pic1.png',size: "200x200") %> Trails in Colorado. </h1></div>
+    
 
     	<table border: 1px solid;>
     		<tr>
@@ -49,6 +51,79 @@
       		<td> 444 Ruxton Ave, Manitou Springs,Colorado </td>
       		<td> Hard </td>
       		<td> Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Emerald Lake Trail" , emerald_path %> </td>
+      		<td> Bear Lake Rd, Estes Park, CO 80517 </td>
+      		<td> Easy </td>
+      		<td> Hiking, Snowshoeing </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "St Mary’s Glacier Trailhead" , stmary_path %> </td>
+      		<td> St Mary's Glacier Trailhead, St Marys Dr, Idaho Springs, CO 80452 </td>
+      		<td> Moderate </td>
+      		<td> Hiking, Cross-Country Skiing and Fishing </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Mount Bierstadt" , bierstadt_path %> </td>
+      		<td> Guanella Pass Summit, Idaho Springs, CO 80452 </td>
+      		<td> Hard </td>
+      		<td> Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Quandary Peak Trail" , quandary_path %> </td>
+      		<td> Quandary Peak Trailhead, Mc Cullough Gulch Rd, Breckenridge, CO 80424 </td>
+      		<td> Hard </td>
+      		<td> Hiking and Snowshoeing </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "High Dune Trail" , high_path %> </td>
+      		<td> Parking lot, Mosca, CO 81146 </td>
+      		<td> Hard </td>
+      		<td> Hiking and Camping </td>	
+      	</tr>
+      	
+      	
+      	
+      	
+			<tr>
+      		<td><%= link_to "Maroon Bells Scenic Loop Trail" , maroon_path %> </td>
+      		<td> Aspen 1, CO </td>
+      		<td> Easy </td>
+      		<td> Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Independence Mountain Trail at Pence Park" , independence_path %> </td>
+      		<td> 4400 Parmalee Gulch Road Parking, 3940 Myers Gulch Rd, Golden, CO 80401 </td>
+      		<td> Moderate </td>
+      		<td> Hiking and Running </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "First and Second Flatiorns Loop" , flatiron_path %> </td>
+      		<td> Chautauqua, 900 Baseline Rd, Boulder, CO 80302 </td>
+      		<td> Moderate </td>
+      		<td> Hiking and Rock-Climbing </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Hanging Lake Trail" , hanging_path %> </td>
+      		<td> Glenwood Springs, Colorado 81601 </td>
+      		<td> Moderate </td>
+      		<td> Hiking </td>	
+      	</tr>
+      	
+      	<tr>
+      		<td><%= link_to "Pulpit Rock Park Loop" , pulpit_path %> </td>
+      		<td> Northeast Colorado Springs, Colorado Springs, CO 80918 </td>
+      		<td> Moderate </td>
+      		<td> Hiking and Biking </td>	
       	</tr>
   			 
 </html>
